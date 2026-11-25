@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" role="img" aria-label="Illustration of three women standing together in front of a large shield and a rising sun">
+<circle cx="260" cy="230" r="215" fill="#FFE8D1"/>
+<circle cx="260" cy="200" r="120" fill="#FFD9C2"/>
+<path d="M260 70l120 48v90c0 90-55 138-120 168-65-30-120-78-120-168v-90z" fill="#7A2E00"/>
+<path d="M260 92l100 40v78c0 76-46 118-100 144-54-26-100-68-100-144v-78z" fill="#9A3F08"/>
+<g fill="none" stroke="#FFD9B3" stroke-width="3" stroke-linecap="round"><path d="M200 150a60 60 0 01120 0"/><path d="M170 150a90 90 0 01180 0" opacity="0.6"/><path d="M260 62v-18M214 74l-10-14M306 74l10-14" opacity="0.8"/></g>
+<!-- figures -->
+<g>
+<circle cx="190" cy="262" r="26" fill="#C98B6B"/><path d="M162 250c2-30 54-30 56 0v6c-14-14-42-14-56 0z" fill="#2B1B3F"/>
+<path d="M150 400c0-62 16-108 40-108s40 46 40 108z" fill="#C2410C"/>
+<circle cx="260" cy="238" r="28" fill="#E3B494"/><path d="M230 226c6-34 54-34 60 0l-4 24c-12-26-40-26-52 0z" fill="#7A2E00"/>
+<path d="M214 400c0-72 18-124 46-124s46 52 46 124z" fill="#FFD9B3"/>
+<circle cx="332" cy="262" r="26" fill="#B87A5A"/><path d="M304 252c6-32 50-32 56 2v12c-10-18-40-18-56-4z" fill="#1F1530"/>
+<path d="M292 400c0-62 16-108 40-108s40 46 40 108z" fill="#E8873A"/>
+</g>
+<path d="M120 402h280" stroke="#7A2E00" stroke-width="4" stroke-linecap="round"/>
+<g fill="#C2410C" opacity="0.9"><circle cx="86" cy="150" r="7"/><circle cx="440" cy="130" r="5"/><circle cx="452" cy="300" r="8" fill="#E8873A"/><circle cx="70" cy="320" r="6" fill="#E8873A"/></g>
+</svg>
