@@ -360,6 +360,11 @@
   width: fit-content;
   border-radius: 35px;
 }
+@media (max-width: 640px) {
+  .section-3 {
+    flex-direction: column;
+  }
+}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
