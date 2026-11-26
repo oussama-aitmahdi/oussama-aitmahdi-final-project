@@ -172,6 +172,9 @@
   }
 }
 @layer utilities {
+  .clear-both {
+    clear: both;
+  }
   .box-content {
     box-sizing: content-box;
   }
@@ -348,6 +351,9 @@
   .bg-\[\#f9dac5\] {
     background-color: #f9dac5;
   }
+  .bg-\[\#fbe9d4\] {
+    background-color: #fbe9d4;
+  }
   .bg-\[\#fdf4e9\] {
     background-color: #fdf4e9;
   }
@@ -406,6 +412,12 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[45px\] {
+    font-size: 45px;
+  }
+  .text-\[50px\] {
+    font-size: 50px;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -439,6 +451,9 @@
   .text-\[\#\] {
     color: #;
   }
+  .text-\[\#b34a22\] {
+    color: #b34a22;
+  }
   .text-\[\#b54e27\] {
     color: #b54e27;
   }
@@ -453,6 +468,9 @@
   }
   .text-white {
     color: var(--color-white);
+  }
+  .uppercase {
+    text-transform: uppercase;
   }
   .underline {
     text-decoration-line: underline;
