@@ -13,9 +13,12 @@
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-bold: 700;
+    --radius-2xl: 1rem;
+    --radius-3xl: 1.5rem;
     --radius-4xl: 2rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --font-titles: "Bodoni Moda", serif;
   }
 }
 @layer base {
@@ -173,11 +176,71 @@
   .flex {
     display: flex;
   }
+  .table {
+    display: table;
+  }
+  .h-\[0\%\] {
+    height: 0%;
+  }
+  .h-\[30\%\] {
+    height: 30%;
+  }
+  .h-\[40\%\] {
+    height: 40%;
+  }
+  .h-\[45\%\] {
+    height: 45%;
+  }
+  .h-\[50\%\] {
+    height: 50%;
+  }
+  .h-\[100px\] {
+    height: 100px;
+  }
+  .h-\[140px\] {
+    height: 140px;
+  }
+  .h-\[142px\] {
+    height: 142px;
+  }
+  .h-\[150px\] {
+    height: 150px;
+  }
+  .h-\[400px\] {
+    height: 400px;
+  }
+  .h-fit {
+    height: fit-content;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .w-1 {
+    width: var(--spacing);
+  }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
   }
+  .w-\[20\%\] {
+    width: 20%;
+  }
+  .w-\[25\%\] {
+    width: 25%;
+  }
+  .w-\[30\%\] {
+    width: 30%;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
+  .w-\[60\%\] {
+    width: 60%;
+  }
   .w-\[70\%\] {
     width: 70%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
   }
   .w-fit {
     width: fit-content;
@@ -185,8 +248,14 @@
   .w-full {
     width: 100%;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .resize {
+    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -200,8 +269,14 @@
   .justify-end {
     justify-content: flex-end;
   }
+  .gap-1 {
+    gap: var(--spacing);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -212,6 +287,15 @@
   .gap-\[1rem\] {
     gap: 1rem;
   }
+  .gap-\[4rem\] {
+    gap: 4rem;
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-3xl {
+    border-radius: var(--radius-3xl);
+  }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
   }
@@ -220,6 +304,22 @@
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
+  }
+  .rounded-t {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .rounded-t-2xl {
+    border-top-left-radius: var(--radius-2xl);
+    border-top-right-radius: var(--radius-2xl);
+  }
+  .rounded-b-2xl {
+    border-bottom-right-radius: var(--radius-2xl);
+    border-bottom-left-radius: var(--radius-2xl);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-\[2px\] {
     border-style: var(--tw-border-style);
@@ -233,6 +333,9 @@
   }
   .bg-\[\#f9dab8\] {
     background-color: #f9dab8;
+  }
+  .bg-\[\#f9dac5\] {
+    background-color: #f9dac5;
   }
   .bg-\[\#fdf4e9\] {
     background-color: #fdf4e9;
@@ -255,6 +358,12 @@
   .py-\[0\.5rem\] {
     padding-block: 0.5rem;
   }
+  .py-\[1rem\] {
+    padding-block: 1rem;
+  }
+  .py-\[2rem\] {
+    padding-block: 2rem;
+  }
   .py-\[4rem\] {
     padding-block: 4rem;
   }
@@ -263,6 +372,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .font-titles {
+    font-family: var(--font-titles);
   }
   .text-5xl {
     font-size: var(--text-5xl);
@@ -274,6 +386,12 @@
   .text-\[18px\] {
     font-size: 18px;
   }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -284,8 +402,17 @@
   .text-\[\#713310\] {
     color: #713310;
   }
+  .text-\[\#713411\] {
+    color: #713411;
+  }
   .text-\[\#723411\] {
     color: #723411;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[\#b54e27\] {
+    color: #b54e27;
   }
   .text-\[\#bb5d39\] {
     color: #bb5d39;
@@ -293,11 +420,21 @@
   .text-white {
     color: var(--color-white);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .shadow-\[0_0_10px_rgba\(255\,165\,0\,0\.25\)\] {
     --tw-shadow: 0 0 10px var(--tw-shadow-color, rgba(255,165,0,0.25));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
   @media (width < 40rem) {
+    .max-sm\:flex {
+      display: flex;
+    }
     .max-sm\:w-full {
       width: 100%;
     }
@@ -309,6 +446,7 @@
     }
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 @layer base {
   * {
     text-transform: capitalize;
@@ -439,6 +577,11 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: block))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -458,6 +601,7 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
     }
   }
 }
