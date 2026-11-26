@@ -12,7 +12,9 @@
     --spacing: 0.25rem;
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
     --radius-4xl: 2rem;
@@ -290,6 +292,9 @@
   .gap-\[1rem\] {
     gap: 1rem;
   }
+  .gap-\[3rem\] {
+    gap: 3rem;
+  }
   .gap-\[4rem\] {
     gap: 4rem;
   }
@@ -395,6 +400,9 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[23px\] {
+    font-size: 23px;
+  }
   .text-\[40px\] {
     font-size: 40px;
   }
@@ -402,8 +410,19 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
   .text-\[\#4a4a57\] {
     color: #4a4a57;
+  }
+  .text-\[\#7b4120\] {
+    color: #7b4120;
   }
   .text-\[\#713310\] {
     color: #713310;
@@ -413,6 +432,9 @@
   }
   .text-\[\#723411\] {
     color: #723411;
+  }
+  .text-\[\#888892\] {
+    color: #888892;
   }
   .text-\[\#\] {
     color: #;
@@ -425,6 +447,9 @@
   }
   .text-\[\#efcfac\] {
     color: #efcfac;
+  }
+  .text-\[20pz\] {
+    color: 20pz;
   }
   .text-white {
     color: var(--color-white);
