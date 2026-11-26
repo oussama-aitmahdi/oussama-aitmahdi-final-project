@@ -263,6 +263,9 @@
   .items-center {
     align-items: center;
   }
+  .justify-between {
+    justify-content: space-between;
+  }
   .justify-center {
     justify-content: center;
   }
@@ -327,6 +330,9 @@
   }
   .bg-\[\#713310\] {
     background-color: #713310;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-\[\#b34a22\] {
     background-color: #b34a22;
@@ -416,6 +422,9 @@
   }
   .text-\[\#bb5d39\] {
     color: #bb5d39;
+  }
+  .text-\[\#efcfac\] {
+    color: #efcfac;
   }
   .text-white {
     color: var(--color-white);
