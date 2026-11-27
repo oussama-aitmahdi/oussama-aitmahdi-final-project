@@ -65,7 +65,14 @@
     border: 1px solid white;
     width: fit-content;
     border-radius: 35px;
+    transition: background-color 300ms, transform 300ms;
 }
+
+.description a:hover {
+    background-color: black;
+    transform: translateY(-4px);
+}
+
 
 @media (max-width: 640px) {
     .section-3{
