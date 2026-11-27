@@ -194,6 +194,15 @@
   .table {
     display: table;
   }
+  .h-\[2px\] {
+    height: 2px;
+  }
+  .h-\[4px\] {
+    height: 4px;
+  }
+  .h-\[5px\] {
+    height: 5px;
+  }
   .h-\[142px\] {
     height: 142px;
   }
@@ -206,14 +215,26 @@
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
   }
+  .w-\[20px\] {
+    width: 20px;
+  }
   .w-\[25\%\] {
     width: 25%;
+  }
+  .w-\[30\%\] {
+    width: 30%;
+  }
+  .w-\[30\] {
+    width: 30;
   }
   .w-\[40\%\] {
     width: 40%;
   }
   .w-\[50\%\] {
     width: 50%;
+  }
+  .w-\[50px\] {
+    width: 50px;
   }
   .w-\[60\%\] {
     width: 60%;
@@ -349,6 +370,18 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-t-\[2px\] {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+  .border-t-\[3px\] {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 3px;
+  }
+  .border-t-\[4px\] {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 4px;
+  }
   .border-l {
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
@@ -359,6 +392,9 @@
   }
   .border-\[\#93423e\] {
     border-color: #93423e;
+  }
+  .border-\[\#713310\] {
+    border-color: #713310;
   }
   .border-\[\#723411\] {
     border-color: #723411;
@@ -383,6 +419,9 @@
   }
   .border-\[1\.px\] {
     border-color: 1.px;
+  }
+  .bg-\[\#\#713310\] {
+    background-color: ##713310;
   }
   .bg-\[\#713310\] {
     background-color: #713310;
@@ -422,6 +461,9 @@
   }
   .bg-\[\#ffffff\] {
     background-color: #ffffff;
+  }
+  .bg-\[white\] {
+    background-color: white;
   }
   .bg-amber-600 {
     background-color: var(--color-amber-600);
@@ -589,6 +631,9 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .text-\[\#\#713310\] {
+    color: ##713310;
+  }
   .text-\[\#\#733512\] {
     color: ##733512;
   }
@@ -597,6 +642,9 @@
   }
   .text-\[\#7b4120\] {
     color: #7b4120;
+  }
+  .text-\[\#9a9a9e\] {
+    color: #9a9a9e;
   }
   .text-\[\#9f9c9f\] {
     color: #9f9c9f;
@@ -609,6 +657,9 @@
   }
   .text-\[\#93423e\] {
     color: #93423e;
+  }
+  .text-\[\#323239\] {
+    color: #323239;
   }
   .text-\[\#713310\] {
     color: #713310;
@@ -706,6 +757,9 @@
     outline-width: 1px;
   }
   @media (width < 40rem) {
+    .max-sm\:flex {
+      display: flex;
+    }
     .max-sm\:w-\[95\%\] {
       width: 95%;
     }
