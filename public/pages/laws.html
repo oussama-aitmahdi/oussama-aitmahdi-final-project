@@ -12,23 +12,34 @@
             <h1 class="text-white">16 Days of Activism against Gender-Based Violence • 25 November - 10 December</h1>
         </div>
         
-        <div class="bg-white flex justify-between w-full px-[2rem] py-[1rem]">
+        <nav class="bg-neutral-primary w-full z-20 top-5 start-0">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <div class="flex flex-col ">
-                <h1 class="font-titles text-[#713310] font-extrabold text-[23px]">hemayati</h1>
+                        <h1 class="font-titles text-[#713310] font-extrabold text-[23px]">hemayati</h1>
                 <span class="text-[#888892]">rights & protection</span>
             </div>
-
-            <div class="flex gap-[3rem] items-center">
-                <nav class="flex gap-[3rem] text-[#7b4120] font-semibold">
-                    <a href="../../index.html">home</a>
-                    <a href="./help.html">help</a>
-                    <a href="./laws.html">laws</a>
-                    <a href="./help-morocco.html">find help in morocco</a>
-                </nav>
-                
-                <a class="bg-[#b34a22] text-white h-fit px-[1rem] py-[0.5rem] rounded-4xl" href="">get help</a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none " aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col gap-4 p-4 md:p-0 mt-4 border border-[#b34a22] rounded-3xl rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+                <li>
+                <a class="text-[#753916]" href="../../index.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">home</a>
+                </li>
+                <li>
+                <a class="text-[#753916]" href="./help.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">help</a>
+                </li>
+                <li>
+                <a class="text-[#753916]" href="./laws.html" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">laws</a>
+                </li>
+                <li>
+                    <a class="bg-[#b34a22] text-white h-fit px-[1rem] py-[0.5rem] rounded-4xl" href="">get help</a>
+                </li>
+            </ul>
             </div>
         </div>
+        </nav>
     </header>
 
     <main>
@@ -253,5 +264,8 @@
             <span>this site does not store your personal data</span>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
 </body>
 </html>
