@@ -423,6 +423,9 @@
   .bg-\[\#\#713310\] {
     background-color: ##713310;
   }
+  .bg-\[\#\#b7552e\] {
+    background-color: ##b7552e;
+  }
   .bg-\[\#713310\] {
     background-color: #713310;
   }
@@ -437,6 +440,9 @@
   }
   .bg-\[\#b34a22\] {
     background-color: #b34a22;
+  }
+  .bg-\[\#b7552e\] {
+    background-color: #b7552e;
   }
   .bg-\[\#f4f4f6\] {
     background-color: #f4f4f6;
@@ -500,6 +506,9 @@
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-\[1\.5rem\] {
+    padding-inline: 1.5rem;
   }
   .px-\[1rem\] {
     padding-inline: 1rem;
