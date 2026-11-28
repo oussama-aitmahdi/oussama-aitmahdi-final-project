@@ -63,7 +63,7 @@ finale/
 
 to run the project locally from github 
 
-1 download the project from github or clone it using the commande 'git clone (project github link)
+1 download the project from github or clone it using the commande 'git clone https://github.com/oussama-aitmahdi/oussama-aitmahdi-final-project.git
 
 2 open the project folder
 
